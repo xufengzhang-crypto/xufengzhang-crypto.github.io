@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xufeng Zhang | Fragments</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">About Me</a>
+        <a href="publications.html">Publications</a>
+        <!--<a href="teaching.html">Teaching & Service</a>-->
+        <a href="talks.html">Talks</a>
+        <a href="files/Xufeng_Zhang_CV.pdf" target="_blank">CV</a>
+        <a href="misc.html" class="active">Fragments</a>
+    </nav>
+
+    <div class="hero-banner"></div>
+
+    <div class="container">
+        <h2>Fragments</h2>
+        <p style="color: #666; font-style: italic; margin-bottom: 40px;">
+            "So we beat on, boats against the current, borne back ceaselessly into the past."
+        </p>
+
+        <h3>Life-Changing Movies</h3>
+
+        <div class="fragments-grid">           
+            <div class="fragment-item">
+                <img src="pic/legend_of_1900.jpg" alt="The Legend of 1900">
+                <div class="fragment-caption">The Legend of 1900</div>
+            </div>
+
+            <div class="fragment-item">
+                <img src="pic/cinema_paradiso.jpg" alt="Cinema Paradiso">
+                <div class="fragment-caption">Cinema Paradiso</div>
+            </div>
+        </div>
+
+        <hr>
+        
+        <h3>Classical Music</h3>
+
+        <div class="gallery">
+            <div class="gallery-grid">
+                
+                <div class="gallery-item">
+                    <img src="pic/vpo_2025_bruckner_5.jpg" alt="VPO 2025">
+                    <div class="gallery-info-title">Bruckner's Symphony No. 5</div>
+                    <div class="gallery-info-artist">Vienna Philharmonic, Christian Thielemann</div>
+                    <div class="gallery-info-meta">National Centre, Beijing (Nov. 2025)</div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="pic/mpo_2024_bruckner_8.jpg" alt="MPO 2024">
+                    <div class="gallery-info-title">Bruckner's Symphony No. 8</div>
+                    <div class="gallery-info-artist">Munich Philharmonic, Tugan Sokhiev</div>
+                    <div class="gallery-info-meta">National Centre, Beijing (Nov. 2024)</div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="pic/ncpa_2023_bruckner_6.jpg" alt="NCPA 2023">
+                    <div class="gallery-info-title">Bruckner's Symphony No. 6</div>
+                    <div class="gallery-info-artist">China NCPA Orchestra, Lü Jia</div>
+                    <div class="gallery-info-meta">National Centre, Beijing (Dec. 2023)</div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="pic/skd_2023_alps.jpg" alt="Dresden 2023">
+                    <div class="gallery-info-title">Richard Strauss's An Alpine Symphony</div>
+                    <div class="gallery-info-artist">Staatskapelle Dresden, Christian Thielemann</div>
+                    <div class="gallery-info-meta">National Centre, Beijing (Nov. 2023)</div>
+                </div>
+
+            </div>
+        </div>
+
+        <hr>
+
+        <h3>Travel</h3>
+        <div class="map-container">            
+            <iframe 
+                class="map-iframe"
+                src="https://www.google.com/maps/d/embed?mid=1g4ldwLYjA_7P4C8nRUBCxcv8t3aqmVc&ehbc=2E312F&hl=en" 
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <div class="strip-wrapper">
+            <button class="nav-btn left" onclick="scrollStrip(-1)">&#10094;</button>
+            
+            <div class="location-strip">
+                <div class="location-cover active" onclick="openDrawer('lisbon', this)">
+                    <img src="pic/lisbon_cover.JPG" alt="Lisbon">
+                    <div class="location-name">Lisbon (21)</div>
+                </div>
+
+                <div class="location-cover" onclick="openDrawer('porto', this)">
+                    <img src="pic/porto_cover.JPG" alt="Porto">
+                    <div class="location-name">Porto (21)</div>
+                </div>
+
+                <div class="location-cover" onclick="openDrawer('toledo', this)">
+                    <img src="pic/toledo_cover.JPG" alt="Toledo">
+                    <div class="location-name">Toledo (18)</div>
+                </div>
+                
+                <div class="location-cover" onclick="openDrawer('santiago', this)">
+                    <img src="pic/santiago_cover.JPG" alt="Santiago">
+                    <div class="location-name">Santiago (12)</div>
+                </div>
+                
+                <div class="location-cover" onclick="openDrawer('barcelona', this)">
+                    <img src="pic/barcelona_cover.JPG" alt="Barcelona">
+                    <div class="location-name">Barcelona (10)</div>
+                </div>
+            </div>
+
+            <button class="nav-btn right" onclick="scrollStrip(1)">&#10095;</button>
+        </div>
+
+        <div id="lisbon" class="drawer-wrapper" style="display: block;">
+            <button class="nav-btn left" onclick="scrollDrawer('lisbon', -1)">&#10094;</button>
+            <div class="drawer-scroll">
+                <div class="drawer-item"><img src="pic/lisbon_1.JPG"></div>
+                <div class="drawer-item"><img src="pic/lisbon_2.JPG"></div>
+                <div class="drawer-item"><img src="pic/lisbon_3.JPG"></div>
+                <div class="drawer-item"><img src="pic/lisbon_4.JPG"></div>
+                <div class="drawer-item"><img src="pic/lisbon_5.JPG"></div>
+                <div class="drawer-item"><img src="pic/lisbon_6.JPG"></div>
+                <div class="drawer-item"><img src="pic/lisbon_7.JPG"></div>
+                <div class="drawer-item"><img src="pic/lisbon_8.JPG"></div>
+                <div class="drawer-item"><img src="pic/lisbon_9.JPG"></div>
+                <div class="drawer-item"><img src="pic/lisbon_10.JPG"></div>
+                <div class="drawer-item"><img src="pic/lisbon_11.JPG"></div>
+                <div class="drawer-item"><img src="pic/lisbon_12.JPG"></div>
+                <div class="drawer-item"><img src="pic/lisbon_13.JPG"></div>
+                <div class="drawer-item"><img src="pic/lisbon_14.JPG"></div>
+                <div class="drawer-item"><img src="pic/lisbon_15.JPG"></div>
+                <div class="drawer-item"><img src="pic/lisbon_16.JPG"></div>
+                <div class="drawer-item"><img src="pic/lisbon_17.JPG"></div>
+                <div class="drawer-item"><img src="pic/lisbon_18.JPG"></div>
+                <div class="drawer-item"><img src="pic/lisbon_19.JPG"></div>
+                <div class="drawer-item"><img src="pic/lisbon_20.JPG"></div>
+                <div class="drawer-item"><img src="pic/lisbon_21.JPG"></div>
+            </div>
+            <button class="nav-btn right" onclick="scrollDrawer('lisbon', 1)">&#10095;</button>
+        </div>
+
+        <div id="porto" class="drawer-wrapper">
+            <button class="nav-btn left" onclick="scrollDrawer('porto', -1)">&#10094;</button>
+            <div class="drawer-scroll">
+                <div class="drawer-item"><img src="pic/porto_1.JPG"></div>
+                <div class="drawer-item"><img src="pic/porto_2.JPG"></div>
+                <div class="drawer-item"><img src="pic/porto_3.JPG"></div>
+                <div class="drawer-item"><img src="pic/porto_4.JPG"></div>
+                <div class="drawer-item"><img src="pic/porto_5.JPG"></div>
+                <div class="drawer-item"><img src="pic/porto_6.JPG"></div>
+                <div class="drawer-item"><img src="pic/porto_7.JPG"></div>
+                <div class="drawer-item"><img src="pic/porto_8.JPG"></div>
+                <div class="drawer-item"><img src="pic/porto_9.JPG"></div>
+                <div class="drawer-item"><img src="pic/porto_10.JPG"></div>
+                <div class="drawer-item"><img src="pic/porto_11.JPG"></div>
+                <div class="drawer-item"><img src="pic/porto_12.JPG"></div>
+                <div class="drawer-item"><img src="pic/porto_13.JPG"></div>
+                <div class="drawer-item"><img src="pic/porto_14.JPG"></div>
+                <div class="drawer-item"><img src="pic/porto_15.JPG"></div>
+                <div class="drawer-item"><img src="pic/porto_16.JPG"></div>
+                <div class="drawer-item"><img src="pic/porto_17.JPG"></div>
+                <div class="drawer-item"><img src="pic/porto_18.JPG"></div>
+                <div class="drawer-item"><img src="pic/porto_19.JPG"></div>
+                <div class="drawer-item"><img src="pic/porto_20.JPG"></div>
+                <div class="drawer-item"><img src="pic/porto_21.JPG"></div>
+            </div>
+            <button class="nav-btn right" onclick="scrollDrawer('porto', 1)">&#10095;</button>
+        </div>
+
+        <div id="toledo" class="drawer-wrapper">
+            <button class="nav-btn left" onclick="scrollDrawer('toledo', -1)">&#10094;</button>
+            <div class="drawer-scroll">
+                <div class="drawer-item"><img src="pic/toledo_1.jpg"></div>
+                <div class="drawer-item"><img src="pic/toledo_2.jpg"></div>
+                <div class="drawer-item"><img src="pic/toledo_3.jpg"></div>
+                <div class="drawer-item"><img src="pic/toledo_4.jpg"></div>
+                <div class="drawer-item"><img src="pic/toledo_5.jpg"></div>
+                <div class="drawer-item"><img src="pic/toledo_6.jpg"></div>
+                <div class="drawer-item"><img src="pic/toledo_7.jpg"></div>
+                <div class="drawer-item"><img src="pic/toledo_8.jpg"></div>
+                <div class="drawer-item"><img src="pic/toledo_9.jpg"></div>
+                <div class="drawer-item"><img src="pic/toledo_10.jpg"></div>
+                <div class="drawer-item"><img src="pic/toledo_11.jpg"></div>
+                <div class="drawer-item"><img src="pic/toledo_12.jpg"></div>
+                <div class="drawer-item"><img src="pic/toledo_13.jpg"></div>
+                <div class="drawer-item"><img src="pic/toledo_14.jpg"></div>
+                <div class="drawer-item"><img src="pic/toledo_15.jpg"></div>
+                <div class="drawer-item"><img src="pic/toledo_16.jpg"></div>
+                <div class="drawer-item"><img src="pic/toledo_17.jpg"></div>
+                <div class="drawer-item"><img src="pic/toledo_18.jpg"></div>
+            </div>
+            <button class="nav-btn right" onclick="scrollDrawer('toledo', 1)">&#10095;</button>
+        </div>
+
+        <div id="santiago" class="drawer-wrapper">
+            <button class="nav-btn left" onclick="scrollDrawer('santiago', -1)">&#10094;</button>
+            <div class="drawer-scroll">
+                <div class="drawer-item"><img src="pic/santiago_1.jpg"></div>
+                <div class="drawer-item"><img src="pic/santiago_2.jpg"></div>
+                <div class="drawer-item"><img src="pic/santiago_3.jpg"></div>
+                <div class="drawer-item"><img src="pic/santiago_4.jpg"></div>
+                <div class="drawer-item"><img src="pic/santiago_5.jpg"></div>
+                <div class="drawer-item"><img src="pic/santiago_6.jpg"></div>
+                <div class="drawer-item"><img src="pic/santiago_7.jpg"></div>
+                <div class="drawer-item"><img src="pic/santiago_8.jpg"></div>
+                <div class="drawer-item"><img src="pic/santiago_9.jpg"></div>
+                <div class="drawer-item"><img src="pic/santiago_10.jpg"></div>
+                <div class="drawer-item"><img src="pic/santiago_11.jpg"></div>
+                <div class="drawer-item"><img src="pic/santiago_12.jpg"></div>
+            </div>
+            <button class="nav-btn right" onclick="scrollDrawer('santiago', 1)">&#10095;</button>
+        </div>
+
+        <div id="barcelona" class="drawer-wrapper">
+            <button class="nav-btn left" onclick="scrollDrawer('barcelona', -1)">&#10094;</button>
+            <div class="drawer-scroll">
+                <div class="drawer-item"><img src="pic/barcelona_1.JPG"></div>
+                <div class="drawer-item"><img src="pic/barcelona_2.JPG"></div>
+                <div class="drawer-item"><img src="pic/barcelona_3.JPG"></div>
+                <div class="drawer-item"><img src="pic/barcelona_4.JPG"></div>
+                <div class="drawer-item"><img src="pic/barcelona_5.JPG"></div>
+                <div class="drawer-item"><img src="pic/barcelona_6.JPG"></div>
+                <div class="drawer-item"><img src="pic/barcelona_7.JPG"></div>
+                <div class="drawer-item"><img src="pic/barcelona_8.jpg"></div>
+                <div class="drawer-item"><img src="pic/barcelona_9.JPG"></div>
+                <div class="drawer-item"><img src="pic/barcelona_10.JPG"></div>
+                <div class="drawer-item"><img src="pic/barcelona_11.JPG"></div>
+            </div>
+            <button class="nav-btn right" onclick="scrollDrawer('barcelona', 1)">&#10095;</button>
+        </div>
+
+    </div>
+
+    <script>
+        function scrollStrip(direction) {
+            const strip = document.querySelector('.location-strip');
+            const scrollAmount = 200; 
+            
+            strip.scrollBy({
+                left: direction * scrollAmount,
+                behavior: 'smooth'
+            });
+        }
+
+        function openDrawer(cityId, element) {
+            const drawers = document.querySelectorAll('.drawer-wrapper');
+            drawers.forEach(d => d.style.display = 'none');
+
+            const target = document.getElementById(cityId);
+            if (target) {
+                target.style.display = 'block';
+            }
+
+            const covers = document.querySelectorAll('.location-cover');
+            covers.forEach(c => c.classList.remove('active'));
+            element.classList.add('active');
+        }
+
+        function scrollDrawer(wrapperId, direction) {
+            const wrapper = document.getElementById(wrapperId);
+            const scrollArea = wrapper.querySelector('.drawer-scroll');
+            const firstItem = scrollArea.querySelector('.drawer-item');
+            
+            let scrollAmount = 600;
+
+            if (firstItem) {
+                scrollAmount = (firstItem.offsetWidth + 30) * 2;
+            }
+            
+            scrollArea.scrollBy({
+                left: direction * scrollAmount,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+
+</body>
+</html>
