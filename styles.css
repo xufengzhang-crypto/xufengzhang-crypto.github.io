@@ -100,7 +100,7 @@ h3 { font-size: 1.2rem; margin-top: 30px; color: #444; font-weight: normal; font
 /* List */
 ul { padding-left: 40px; list-style-type: disc; }
 li { margin-bottom: 12px; }
-.date { font-family: "Courier New", monospace; color: #888; font-size: 0.9rem; margin-right: 6px; }
+.date { font-family: "Courier New", monospace; color: #555; font-size: 0.9rem; margin-right: 6px; }
 .venue { font-style: italic; color: #555; }
 
 /* Icon Links */
@@ -111,7 +111,7 @@ li { margin-bottom: 12px; }
 
 .icon-links a {
     margin-right: 18px;
-    color: #888;
+    color: #666;
     border-bottom: none;
     transition: color 0.2s ease;
 }
@@ -215,7 +215,7 @@ li { margin-bottom: 12px; }
         gap: 8px;
     }
     .paper-venue {
-        color: #888;
+        color: #444;
         margin-bottom: 4px;
         font-size: 0.85rem;
     }
@@ -473,7 +473,7 @@ hr {
 .gallery-info-meta {
     font-family: "Georgia", serif;
     font-size: 0.85rem;
-    color: #888;
+    color: #666;
     font-style: normal;
 }
 
