@@ -111,7 +111,7 @@ li { margin-bottom: 12px; }
 
 .icon-links a {
     margin-right: 18px;
-    color: #666;
+    color: #888;
     border-bottom: none;
     transition: color 0.2s ease;
 }
@@ -473,7 +473,7 @@ hr {
 .gallery-info-meta {
     font-family: "Georgia", serif;
     font-size: 0.85rem;
-    color: #666;
+    color: #888;
     font-style: normal;
 }
 
