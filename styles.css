@@ -98,7 +98,7 @@ h3 { font-size: 1.2rem; margin-top: 30px; color: #444; font-weight: normal; font
 }
 
 /* List */
-ul { padding-left: 20px; list-style-type: square; }
+ul { padding-left: 40px; list-style-type: disc; }
 li { margin-bottom: 12px; }
 .date { font-family: "Courier New", monospace; color: #888; font-size: 0.9rem; margin-right: 6px; }
 .venue { font-style: italic; color: #555; }
