@@ -684,3 +684,28 @@ hr {
         mask-image: linear-gradient(to right, transparent 0px, black 20px, black calc(100% - 20px), transparent 100%);
     }
 }
+
+.section-link {
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.section-link a {
+    font-size: 1.1em;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #6b7d6d;
+    font-style: italic;
+    text-decoration: none;
+    letter-spacing: 0.4px;
+    transition: color 0.2s ease;
+}
+
+.section-link a:hover {
+    color: #4f6252;
+    text-decoration: none;
+}
+
+.gallery-spacer {
+    height: 35px;
+}
